@@ -1,0 +1,26 @@
+title: Minicurso Jekyll
+email: contato-jekyll@secomp.com
+description: "Este site foi desenvolvido durante o Minicurso de Jekyll na X SeComp"
+baseurl: "/minucurso-jekyll"
+url: "http://mastercoks.me"
+twitter_username: minicurso-jekyll
+github_username:  minicurso-jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /:categories/:title
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
